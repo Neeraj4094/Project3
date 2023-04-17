@@ -30,9 +30,10 @@ export default function Cards() {
             <div className="flex flex-wrap -mx-4 -mb-8">
               <div className="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 px-4 mb-8">
                 <div className="max-w-xs md:max-w-none mx-auto h-full pt-3 px-3 pb-5 bg-white">
+                
                   <img
                     className="block w-full mb-4 h-64 object-cover"
-                    src={img8 } onClick={()=>{Navigate('/services')}}
+                    src={img8 } onClick={()=>{Navigate('/content')}}
                     alt=""
                   />
                   <div className="text-center">
@@ -47,7 +48,7 @@ export default function Cards() {
                 <div className="max-w-xs md:max-w-none mx-auto h-full pt-3 px-3 pb-5 bg-white">
                   <img
                     className="block w-full mb-4 h-64 object-cover"
-                    src={img9 } onClick={()=>{Navigate('/services')}}
+                    src={img9 } onClick={()=>{Navigate('/content1')}}
                     alt=""
                   />
                   <div className="text-center">
@@ -62,7 +63,7 @@ export default function Cards() {
                 <div className="max-w-xs md:max-w-none mx-auto h-full pt-3 px-3 pb-5 bg-white">
                   <img
                     className="block w-full mb-4 h-64 object-cover"
-                    src={img10 } onClick={()=>{Navigate('/services')}}
+                    src={img10 } onClick={()=>{Navigate('/content2')}}
                     alt=""
                   />
                   <div className="text-center">
@@ -77,7 +78,7 @@ export default function Cards() {
                 <div className="max-w-xs md:max-w-none mx-auto h-full pt-3 px-3 pb-5 bg-white">
                   <img
                     className="block w-full mb-4 h-64 object-cover"
-                    src={img11 } onClick={()=>{Navigate('/services')}}
+                    src={img11 } onClick={()=>{Navigate('/content3')}}
                     alt=""
                   />
                   <div className="text-center">
